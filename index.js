@@ -21,11 +21,6 @@ productos.forEach(producto => {
     console.log(`Producto: ${producto.nombre} - Precio: $${producto.precio}`);
 });
 
-// 4
-console.log("\n--- Solo nombres de productos (usando map) ---");
-const nombresProductos = productos.map(producto => producto.nombre);
-console.log(nombresProductos);
-
 
 
     
