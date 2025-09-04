@@ -17,6 +17,11 @@ const productosRopa = productos.filter(producto => producto.categoria === "Ropa"
 console.log(productosRopa);
 
 // 6
+console.log("\n-Productos cuyo precio sea mayor a $3000");
+const productosMayorA3000 = productos.filter(producto => producto.precio > 3000);
+console.log(productosMayorA3000);
+
+// 7
 console.log("\n-Productos especifico (Gorra)-");
 const productoEspecifico = productos.find(producto => producto.nombre === "Gorra");
 console.log(productoEspecifico);
