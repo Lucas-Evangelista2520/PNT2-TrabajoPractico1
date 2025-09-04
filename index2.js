@@ -21,6 +21,8 @@ console.log("\n-Productos especifico (Gorra)-");
 const productoEspecifico = productos.find(producto => producto.nombre === "Gorra");
 console.log(productoEspecifico);
 
+export default nombresProductos;
+
 
 
 
